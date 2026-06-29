@@ -1,0 +1,18 @@
+{
+  "domain": "fritz_5g",
+  "name": "HA FRITZ!Box Mobile",
+  "version": "0.1.0-alpha1",
+  "documentation": "https://github.com/Hulki24/ha-fritzbox-mobile",
+  "issue_tracker": "https://github.com/Hulki24/ha-fritzbox-mobile/issues",
+  "codeowners": [
+    "@Hulki24"
+  ],
+  "config_flow": true,
+  "requirements": [
+    "fritzconnection>=1.15.1"
+  ],
+  "iot_class": "local_polling",
+  "loggers": [
+    "fritzconnection"
+  ]
+}
